@@ -1,0 +1,11 @@
+#ignore json and tsv files
+*.json
+*.tsv
+
+#ignore notebook checkpoint
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+#ignore model save file
+*.hdf5
+/save/*
